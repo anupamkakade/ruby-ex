@@ -13,7 +13,7 @@
 Ruby Sample App on OpenShift
 ============================
 
-This is a basic ruby application for OpenShift v3 that you can use as a starting point to develop your own application and deploy it on an [OpenShift](https://github.com/openshift/origin) cluster.
+This is a basic ruby application for OpenShift v3 (I have deployed it to minishift) that you can use as a starting point to develop your own application and deploy it on an [OpenShift](https://github.com/openshift/origin) cluster.
 
 If you'd like to install it, follow [these directions](https://github.com/sclorg/ruby-ex/blob/master/README.md#installation).  
 
@@ -25,7 +25,7 @@ These steps assume your OpenShift deployment has the default set of ImageStreams
 1. Fork a copy of [ruby-ex](https://github.com/sclorg/ruby-ex)
 2. Add a Ruby application from your new repository:
 
-		$ oc new-app openshift/ruby:25~https://github.com/< yourusername >/ruby-ex 
+		$ oc new-app openshift/ruby:2.5~https://github.com/< yourusername >/ruby-ex 
 
 3. A build should start immediately.  To run another build, run:
 
